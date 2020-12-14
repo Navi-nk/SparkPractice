@@ -1,14 +1,14 @@
 package com.navi.spark
 
 import org.apache.spark._
-import org.apache.spark.SparkContext._
+//import org.apache.spark.SparkContext._
 import org.apache.log4j._
 
 /** Count up how many of each star rating exists in the MovieLens 100K data set. */
 object RatingsCounter {
  
   /** Our main function where the action happens */
-  def main(args: Array[String]) {
+/*  def main(args: Array[String]) {
    
     // Set the log level to only print errors
     Logger.getLogger("org").setLevel(Level.ERROR)
@@ -31,5 +31,5 @@ object RatingsCounter {
     
     // Print each result on its own line.
     sortedResults.foreach(println)
-  }
+  }*/
 }

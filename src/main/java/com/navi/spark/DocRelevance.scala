@@ -1,13 +1,13 @@
 package com.navi.spark
 
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.rdd.RDD
-import org.apache.spark.{SparkConf, SparkContext}
+//import org.apache.spark.rdd.RDD
+//import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.sql.SparkSession
 
 object DocRelevance {
-  val df = scala.collection.mutable.Map.empty[String, Int].withDefault(_ => 0)
+  /*val df = scala.collection.mutable.Map.empty[String, Int].withDefault(_ => 0)
 
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.ERROR)
@@ -137,5 +137,5 @@ object DocRelevance {
   def magnitude(x: Array[Double]): Double = {
     math.sqrt(x map(i => i*i) sum)
   }
-
+*/
 }
