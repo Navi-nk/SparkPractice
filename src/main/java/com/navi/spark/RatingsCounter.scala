@@ -1,8 +1,8 @@
 package com.navi.spark
 
-import org.apache.spark._
+//import org.apache.spark._
 //import org.apache.spark.SparkContext._
-import org.apache.log4j._
+//import org.apache.log4j._
 
 /** Count up how many of each star rating exists in the MovieLens 100K data set. */
 object RatingsCounter {
